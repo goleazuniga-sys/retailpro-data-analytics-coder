@@ -8,7 +8,7 @@ El objetivo de esta etapa es construir un pipeline ETL en Power BI utilizando Po
 
 ## Archivo principal
 
-- `m6_pipeline_etl_power_query.pbix`
+- `m6_Pipeline_ETL_Olea_Gabriela.pbix`
 
 ## Fuente de datos
 
