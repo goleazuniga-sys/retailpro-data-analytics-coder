@@ -132,4 +132,104 @@ Se utiliza un gráfico de líneas para representar la evolución mensual de las 
 
 Este tipo de visualización facilita la identificación de tendencias, aumentos y disminuciones a lo largo del período analizado.
 
-### Gráfico de
+### Gráfico de barras
+
+Se utiliza un gráfico de barras para comparar las ventas entre categorías porque permite observar de forma directa las diferencias de magnitud entre grupos.
+
+Este tipo de visualización facilita la identificación de las categorías con mayor y menor nivel de ventas.
+
+---
+
+## Relación con el brief del Módulo 1
+
+El diseño mantiene continuidad con las preguntas de análisis definidas previamente en el brief del proyecto RetailPro.
+
+El dashboard busca apoyar el análisis de:
+
+- evolución de las ventas a través del tiempo;
+- diferencias de desempeño entre categorías;
+- comportamiento general del volumen comercial;
+- oportunidades de mejora y crecimiento.
+
+Los KPIs entregan una visión ejecutiva del desempeño, mientras que los gráficos permiten profundizar en los factores que explican los resultados.
+
+---
+
+## Diferenciación entre resumen y detalle
+
+El dashboard se organiza en tres niveles de lectura:
+
+### 1. Resumen ejecutivo
+
+Los cuatro KPIs de la Zona de Oro permiten conocer rápidamente el estado general del negocio.
+
+### 2. Análisis
+
+Los gráficos de evolución mensual y ventas por categoría permiten identificar tendencias y diferencias relevantes.
+
+### 3. Detalle
+
+La tabla inferior permite revisar las transacciones individuales que explican los resultados agregados.
+
+La lógica de lectura propuesta es:
+
+`Resumen → Análisis → Detalle`
+
+---
+
+## Patrón de lectura en Z
+
+El boceto sigue el patrón de lectura en Z solicitado para la pre-entrega:
+
+1. La lectura comienza en los KPIs de la zona superior.
+2. Continúa hacia el gráfico de evolución mensual.
+3. Se desplaza hacia el gráfico de comparación por categorías.
+4. Finaliza en la tabla de detalle de transacciones.
+
+Esta estructura permite presentar primero la información más relevante y aumentar progresivamente el nivel de detalle.
+
+---
+
+## Elementos visuales principales
+
+El diseño contempla:
+
+1. Zona de Oro con cuatro KPIs.
+2. Gráfico de evolución mensual de ventas.
+3. Gráfico de ventas por categoría.
+4. Tabla de detalle de transacciones.
+
+La estructura evita sobrecargar el dashboard y mantiene una lectura simple y ejecutiva.
+
+---
+
+## Criterios de aceptación
+
+- El propósito está redactado en una sola frase orientada a la acción.
+- El boceto respeta el patrón de lectura en Z.
+- Los cuatro KPIs del proyecto se encuentran en la Zona de Oro.
+- El dashboard no supera los seis elementos visuales principales.
+- Se utiliza un gráfico de líneas para la tendencia temporal.
+- Se utiliza un gráfico de barras para la comparación entre categorías.
+- La justificación conecta el diseño con las preguntas de análisis del brief del Módulo 1.
+- Se diferencia claramente entre zona de resumen, análisis y detalle.
+
+---
+
+## Archivo principal
+
+- `dashboard_boceto_retailpro_canva.svg`
+
+---
+
+## Herramientas utilizadas
+
+- Canva para el diseño del boceto.
+- Power BI para la posterior construcción del dashboard.
+- GitHub para documentación y versionado del proyecto.
+
+---
+
+## Próximo paso
+
+Este boceto será utilizado como guía para construir el dashboard definitivo de RetailPro en Power BI, manteniendo la misma jerarquía visual, KPIs y tipos de visualización definidos en esta etapa.
