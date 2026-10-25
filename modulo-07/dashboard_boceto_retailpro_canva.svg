@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <style>
+    .bg{fill:#fffdf8}
+    .title{font:700 28px Arial,sans-serif;fill:#1f2937}
+    .subtitle{font:15px Arial,sans-serif;fill:#6b7280}
+    .section{font:700 15px Arial,sans-serif;fill:#374151}
+    .card{fill:#ffffff;stroke:#d1d5db;stroke-width:2}
+    .k1{fill:#fff7ed;stroke:#fdba74;stroke-width:2}
+    .k2{fill:#eff6ff;stroke:#93c5fd;stroke-width:2}
+    .k3{fill:#f0fdf4;stroke:#86efac;stroke-width:2}
+    .k4{fill:#fdf4ff;stroke:#d8b4fe;stroke-width:2}
+    .label{font:700 17px Arial,sans-serif;fill:#111827}
+    .value{font:700 24px Arial,sans-serif;fill:#111827}
+    .small{font:14px Arial,sans-serif;fill:#6b7280}
+    .axis{stroke:#9ca3af;stroke-width:1.5}
+    .grid{stroke:#e5e7eb;stroke-width:1}
+    .line{fill:none;stroke:#2563eb;stroke-width:3.5}
+    .dot{fill:#2563eb}
+    .bar1{fill:#60a5fa}.bar2{fill:#93c5fd}.bar3{fill:#bfdbfe}.bar4{fill:#dbeafe}
+    .tableHead{fill:#f3f4f6;stroke:#d1d5db;stroke-width:1}
+    .note{font:italic 13px Arial,sans-serif;fill:#6b7280}
+  </style>
+
+  <rect class="bg" width="1400" height="900"/>
+
+  <text x="60" y="55" class="title">RetailPro - Boceto Dashboard Ejecutivo</text>
+  <text x="60" y="84" class="subtitle">Pre-entrega Módulo 7 | Diseño previo del dashboard en Power BI</text>
+
+  <text x="60" y="120" class="section">1. Zona de Oro - KPIs principales</text>
+  <rect x="60" y="140" width="1280" height="145" class="card" rx="10"/>
+
+  <rect x="85" y="168" width="285" height="85" class="k1" rx="10"/>
+  <text x="105" y="200" class="label">Total de ventas</text>
+  <text x="105" y="235" class="value">$ XXX.XXX</text>
+
+  <rect x="390" y="168" width="285" height="85" class="k2" rx="10"/>
+  <text x="410" y="200" class="label">Unidades vendidas</text>
+  <text x="410" y="235" class="value">XXX</text>
+
+  <rect x="695" y="168" width="285" height="85" class="k3" rx="10"/>
+  <text x="715" y="200" class="label">Ticket promedio</text>
+  <text x="715" y="235" class="value">$ XX.XXX</text>
+
+  <rect x="1000" y="168" width="315" height="85" class="k4" rx="10"/>
+  <text x="1020" y="200" class="label">Variación de ventas</text>
+  <text x="1020" y="235" class="value">XX %</text>
+
+  <text x="60" y="325" class="section">2. Zona media - análisis visual</text>
+
+  <rect x="60" y="345" width="610" height="300" class="card" rx="10"/>
+  <text x="85" y="382" class="label">Evolución mensual de ventas</text>
+  <text x="85" y="407" class="small">Línea para identificar tendencia y cambios en el tiempo</text>
+
+  <line x1="120" y1="585" x2="610" y2="585" class="axis"/>
+  <line x1="120" y1="455" x2="120" y2="585" class="axis"/>
+  <line x1="120" y1="540" x2="610" y2="540" class="grid"/>
+  <line x1="120" y1="495" x2="610" y2="495" class="grid"/>
+
+  <polyline points="135,560 205,535 275,545 345,500 415,515 485,470 555,485 600,455" class="line"/>
+  <circle cx="135" cy="560" r="4" class="dot"/>
+  <circle cx="205" cy="535" r="4" class="dot"/>
+  <circle cx="275" cy="545" r="4" class="dot"/>
+  <circle cx="345" cy="500" r="4" class="dot"/>
+  <circle cx="415" cy="515" r="4" class="dot"/>
+  <circle cx="485" cy="470" r="4" class="dot"/>
+  <circle cx="555" cy="485" r="4" class="dot"/>
+  <circle cx="600" cy="455" r="4" class="dot"/>
+
+  <text x="125" y="610" class="small">Ene</text>
+  <text x="260" y="610" class="small">Mar</text>
+  <text x="395" y="610" class="small">May</text>
+  <text x="530" y="610" class="small">Jul</text>
+
+  <rect x="700" y="345" width="640" height="300" class="card" rx="10"/>
+  <text x="725" y="382" class="label">Ventas por categoría</text>
+  <text x="725" y="407" class="small">Barras para comparar categorías de manera directa</text>
+
+  <text x="735" y="470" class="small">Computación</text>
+  <rect x="860" y="450" width="360" height="28" class="bar1" rx="4"/>
+  <text x="735" y="515" class="small">Accesorios</text>
+  <rect x="860" y="495" width="275" height="28" class="bar2" rx="4"/>
+  <text x="735" y="560" class="small">Audio</text>
+  <rect x="860" y="540" width="195" height="28" class="bar3" rx="4"/>
+  <text x="735" y="605" class="small">Almacenamiento</text>
+  <rect x="860" y="585" width="145" height="28" class="bar4" rx="4"/>
+
+  <text x="60" y="690" class="section">3. Zona inferior - detalle de transacciones</text>
+  <rect x="60" y="710" width="1280" height="140" class="card" rx="10"/>
+  <text x="85" y="745" class="label">Tabla de detalle</text>
+
+  <rect x="85" y="765" width="120" height="34" class="tableHead"/>
+  <rect x="205" y="765" width="175" height="34" class="tableHead"/>
+  <rect x="380" y="765" width="225" height="34" class="tableHead"/>
+  <rect x="605" y="765" width="170" height="34" class="tableHead"/>
+  <rect x="775" y="765" width="145" height="34" class="tableHead"/>
+  <rect x="920" y="765" width="145" height="34" class="tableHead"/>
+  <rect x="1065" y="765" width="200" height="34" class="tableHead"/>
+
+  <text x="112" y="788" class="small">Fecha</text>
+  <text x="250" y="788" class="small">Cliente</text>
+  <text x="445" y="788" class="small">Producto</text>
+  <text x="650" y="788" class="small">Categoría</text>
+  <text x="815" y="788" class="small">Canal</text>
+  <text x="953" y="788" class="small">Cantidad</text>
+  <text x="1120" y="788" class="small">Total venta</text>
+
+  <text x="85" y="828" class="note">Idea: primero ver el resultado general, luego entender qué lo explica y finalmente revisar el detalle.</text>
+</svg>
