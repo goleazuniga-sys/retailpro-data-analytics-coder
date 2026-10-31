@@ -68,7 +68,7 @@ retailpro-data-analytics-coder/
 ## 8. Cómo abrir el archivo Power BI
 
 1. Instalar Power BI Desktop (Windows).
-2. Abrir `powerbi/RetailPro.pbix`.
+2. Abrir el archivo `.pbix` correspondiente desde la carpeta del módulo.
 3. Si la conexión a SQL Server falla, ir a **Transformar datos → Configuración de origen de datos** y actualizar el servidor y la base de datos con los de tu entorno.
 4. Hacer clic en **Actualizar** para recargar los datos.
 
@@ -82,14 +82,14 @@ Tablas principales:
 | `clientes` | Dimensión | Datos de los clientes |
 | `productos` | Dimensión | Productos y su categoría |
 | `categorias` | Dimensión | Categorías de producto |
-| Calendario | Dimensión | Tabla de fechas creada para el análisis temporal |
+| `Dim_Fechas` | Dimensión | Tabla calendario para análisis temporal |
 
 Relaciones principales:
 
 - `ventas.id_cliente` → `clientes.id_cliente`
 - `ventas.id_producto` → `productos.id_producto`
 - `productos.id_categoria` → `categorias.id_categoria`
-- `ventas.fecha_venta` → Calendario
+- `Dim_Fechas[Date]`
 
 ## 10. Limitaciones del análisis
 
