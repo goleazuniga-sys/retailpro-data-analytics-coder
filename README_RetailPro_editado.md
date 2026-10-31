@@ -89,7 +89,7 @@ Relaciones principales:
 - `ventas.id_cliente` → `clientes.id_cliente`
 - `ventas.id_producto` → `productos.id_producto`
 - `productos.id_categoria` → `categorias.id_categoria`
-- `Dim_Fechas[Date]`
+- - `ventas.fecha_venta` → `Dim_Fechas[Date]`
 
 ## 10. Limitaciones del análisis
 
